@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="font-geist">
-    <header class="flex gap-4 p-3 justify-between border-b border-gray-200 items-center bg-fuchsia-900 text-fuchsia-200">
+
+<body class="font-geist bg-[#121212]">
+    <header
+        class="flex gap-4 p-3 justify-between items-center bg-purple-950/20 text-fuchsia-200">
         <div class="text-3xl font-bold">LOGO</div>
         <nav>
-            <ul class="flex gap-2 text-sm">
+            <ul class="flex gap-2 text-sm font-jetBrains">
                 <li>Features</li>
                 <li>Pricing</li>
-                <li>Docs</li> 
+                <li>Docs</li>
             </ul>
         </nav>
-        <div class="text-sm">
-            <button>Sign In</button>
-            <button>Get Started</button>
+        <div class="text-sm font-jetBrains">
+            <button class="border p-1.5">Sign In</button>
+            <button class="p-1.5 bg-fuchsia-200 text-purple-950">Get Started</button>
         </div>
     </header>
-    <main>
-
+    <main class="bg-fuchsia-800/20">
+        <section class="grid grid-cols-2 p-6 items-center">
+            <div class="text-fuchsia-200">
+                <h1 class=" text-3xl font-bold">DevOps at the
+                    <br>Speed of Thought.
+                </h1>
+                <p class="text-fuchsia-100">
+                    Autonomous pipelines, predictive scaling, and self-healing infraestructure
+                    powered by next-gen AI. Command your architecture with unprecedented precision.
+                </p>
+                <button>Deploy your First Pipeline</button>
+                <button>View Docs</button>
+            </div>
+            <div>
+                <img src="https://concepto.de/wp-content/uploads/2019/04/codigo-fuente-e1554759455373.jpg" alt="imagen de código referencial">
+            </div>
+        </section>
+        <section class="text-fuchsia-100 flex items-center flex-col">
+            <p>Trusted by the world's most innovate engineering teams</p>
+            <ul class="text-gray-200/30 font-extrabold flex gap-4">
+                <li>NEXUS</li>
+                <li>AERIS</li>
+                <li>QUANTUM</li>
+                <li>SYNAPSE</li>
+            </ul>
+        </section>
+        <section class="text-center bg-amber-100">
+            <h2>Core Capabilities</h2>
+            <div class="grid grid-cols-4 p-5 m-5 gap-4">
+                <div class="border col-span-3">
+                    <h3>Predictive CI/CD</h3>
+                    <p>Our AI models analyze historical deployment data to predict
+                        <br> failure rates before a single line of code hits production.
+                        <br>Optimize your pipeline speeds dynamically.
+                    </p>
+                </div>
+                <div class="border col-span-1 col-start-auto">
+                    <h3>AI Root Cause</h3>
+                    <p>Instantly isolate anomalies. The system correlates logs, metrics, and traces to pinpoint issues in miliseconds.</p>
+                </div>
+                <div class="border col-span-1">
+                    <h3>Zero-Config Observability</h3>
+                    <p>Drop in the agent and get automatic instrumentation for your entire microservice mesh. No manual dashboard creation required.</p>
+                </div>
+                <div class="border col-span-3">
+                    <img src="https://www.hostingplus.lat/wp-content/uploads/2021/11/editor_codigo.jpg" alt="imagen de código de prueba">
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="grid grid-cols-4 text-white">
+        <div>
+            <p>AETHEROPS</p>
+            <p>@ 2024 AETHEROPS COMMAND. ALL SYSTEMS OPERATIONAL.</p>
+        </div>
+        <div>
+            <ul>Platform
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Changelog</li>
+            </ul>
+        </div>
+        <div>
+            <ul>Resources
+                <li>Docs</li>
+                <li>API Status</li>
+                <li>Community</li>
+            </ul>
+        </div>
+        <div>
+            <ul>Legal
+                <li>Security</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
     </footer>
 </body>
+
 </html>
