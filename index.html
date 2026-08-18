@@ -9,92 +9,106 @@
 </head>
 
 <body class="font-geist bg-[#121212]">
-    <header
-        class="flex gap-4 p-3 justify-between items-center bg-purple-950/20 text-fuchsia-200">
-        <div class="text-3xl font-bold">LOGO</div>
+    <header class="flex gap-4 px-12 py-1.5 justify-between items-center text-cyan-200">
+        <div class="text-4xl font-bold">AetherOps</div>
         <nav>
-            <ul class="flex gap-2 text-sm font-jetBrains">
+            <ul class="flex gap-10 text-sm font-jetBrains">
                 <li>Features</li>
                 <li>Pricing</li>
                 <li>Docs</li>
             </ul>
         </nav>
-        <div class="text-sm font-jetBrains">
+        <div class="flex gap-5 text-sm font-jetBrains">
             <button class="border p-1.5">Sign In</button>
-            <button class="p-1.5 bg-fuchsia-200 text-purple-950">Get Started</button>
+            <button class="p-1.5 bg-cyan-200 text-black">Get Started</button>
         </div>
     </header>
-    <main class="bg-fuchsia-800/20">
-        <section class="grid grid-cols-2 p-6 items-center">
-            <div class="text-fuchsia-200">
-                <h1 class=" text-3xl font-bold">DevOps at the
-                    <br>Speed of Thought.
-                </h1>
-                <p class="text-fuchsia-100">
+    <main>
+        <section class="grid grid-cols-2 p-12 items-center">
+            <div class=" text-cyan-200">
+                <div class="mb-7 font-jetBrains">
+                    <span class="border p-1.5 rounded-xl bg-cyan-300/10">🟢 v2.4.0 Live</span>
+                </div>
+                <span class=" text-5xl font-bold">
+                    <span class="text-white">DevOps at the</span>
+                    <br>
+                    Speed of Thought.
+                </span>
+                <p class="text-cyan-100 pr-7 my-5">
                     Autonomous pipelines, predictive scaling, and self-healing infraestructure
                     powered by next-gen AI. Command your architecture with unprecedented precision.
                 </p>
-                <button>Deploy your First Pipeline</button>
-                <button>View Docs</button>
+                <div class="font-jetBrains text-xs flex gap-6">
+                    <button class="p-5 bg-cyan-200 text-black shadow-md shadow-cyan-200/50">Deploy your First Pipeline</button>
+                    <button class="p-5 border">📄 View Docs</button>
+                </div>
             </div>
-            <div>
-                <img src="https://concepto.de/wp-content/uploads/2019/04/codigo-fuente-e1554759455373.jpg" alt="imagen de código referencial">
+            <div class="pl-5">
+                <img class="rounded-2xl"
+                    src="https://concepto.de/wp-content/uploads/2019/04/codigo-fuente-e1554759455373.jpg"
+                    alt="imagen de código referencial">
             </div>
         </section>
-        <section class="text-fuchsia-100 flex items-center flex-col">
-            <p>Trusted by the world's most innovate engineering teams</p>
-            <ul class="text-gray-200/30 font-extrabold flex gap-4">
+        <section class="text-cyan-100 flex items-center flex-col my-12">
+            <p class="font-jetBrains text-xs">Trusted by the world's most innovate engineering teams</p>
+            <ul class="text-xl text-gray-200/30 font-extrabold flex gap-14 m-7">
                 <li>NEXUS</li>
                 <li>AERIS</li>
                 <li>QUANTUM</li>
                 <li>SYNAPSE</li>
             </ul>
         </section>
-        <section class="text-center bg-amber-100">
-            <h2>Core Capabilities</h2>
-            <div class="grid grid-cols-4 p-5 m-5 gap-4">
-                <div class="border col-span-3">
-                    <h3>Predictive CI/CD</h3>
+        <section>
+            <h2 class="text-2xl font-bold text-white text-center">Core Capabilities</h2>
+            <div class="grid grid-cols-3 p-5 m-5 gap-4 text-white/70">
+                <div class="py-10 px-6 border border-gray-100/10 bg-[#0f0e0e] col-span-2">
+                    <h3 class="text-xl my-2 font-bold text-white">Predictive CI/CD</h3>
                     <p>Our AI models analyze historical deployment data to predict
                         <br> failure rates before a single line of code hits production.
                         <br>Optimize your pipeline speeds dynamically.
                     </p>
                 </div>
-                <div class="border col-span-1 col-start-auto">
-                    <h3>AI Root Cause</h3>
-                    <p>Instantly isolate anomalies. The system correlates logs, metrics, and traces to pinpoint issues in miliseconds.</p>
+                <div class="py-10 px-6 border border-gray-100/10 bg-[#0f0e0e] col-span-1 col-start-auto">
+                    <h3 class="text-xl my-2 font-bold text-white">AI Root Cause</h3>
+                    <p>Instantly isolate anomalies. The system correlates logs, metrics, and traces to pinpoint issues
+                        in miliseconds.</p>
                 </div>
-                <div class="border col-span-1">
-                    <h3>Zero-Config Observability</h3>
-                    <p>Drop in the agent and get automatic instrumentation for your entire microservice mesh. No manual dashboard creation required.</p>
+                <div class="py-10 px-6 border border-gray-100/10 bg-[#0f0e0e] col-span-">
+                    <h3 class="text-xl my-2 font-bold text-white">Zero-Config Observability</h3>
+                    <p>Drop in the agent and get automatic instrumentation for your entire microservice mesh. No manual
+                        dashboard creation required.</p>
                 </div>
-                <div class="border col-span-3">
-                    <img src="https://www.hostingplus.lat/wp-content/uploads/2021/11/editor_codigo.jpg" alt="imagen de código de prueba">
+                <div class=" border border-gray-100/10 bg-[#0f0e0e] col-span-2">
+                    <img class="h-55 w-full" src="https://www.hostingplus.lat/wp-content/uploads/2021/11/editor_codigo.jpg"
+                        alt="imagen de código de prueba">
                 </div>
             </div>
         </section>
     </main>
-    <footer class="grid grid-cols-4 text-white">
-        <div>
-            <p>AETHEROPS</p>
-            <p>@ 2024 AETHEROPS COMMAND. ALL SYSTEMS OPERATIONAL.</p>
+    <footer class="grid grid-cols-4 text-white p-7 bg-[#080808f6]">
+        <div class="text-sm font-jetBrains flex flex-col gap-4 px-5">
+            <p class="text-cyan-200">AETHEROPS</p>
+            <p class="text-cyan-400">@ 2024 AETHEROPS COMMAND. ALL SYSTEMS OPERATIONAL.</p>
         </div>
         <div>
-            <ul>Platform
+            <ul class="flex flex-col gap-3 text-sm text-white/40"> 
+                <span class="font-jetBrains text-xs text-white font-bold">Platform</span>
                 <li>Features</li>
                 <li>Pricing</li>
                 <li>Changelog</li>
             </ul>
         </div>
         <div>
-            <ul>Resources
+            <ul class="flex flex-col gap-3 text-sm text-white/40"> 
+                <span class="font-jetBrains text-xs text-white font-bold">Resources</span>
                 <li>Docs</li>
                 <li>API Status</li>
                 <li>Community</li>
             </ul>
         </div>
         <div>
-            <ul>Legal
+            <ul class="flex flex-col gap-3 text-sm text-white/40"> 
+                <span class="font-jetBrains text-xs text-white font-bold">Legal</span>
                 <li>Security</li>
                 <li>Terms</li>
                 <li>Privacy</li>
