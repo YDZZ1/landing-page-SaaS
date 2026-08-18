@@ -1,7 +1,7 @@
 # Landing page for a SaaS
 
 ## CheckList
-- [ ] Create the structure.
+- [x] Create the structure.
 - [ ] Make responsive.
 - [ ] Deploy.
 
