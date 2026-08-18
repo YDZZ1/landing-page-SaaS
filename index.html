@@ -9,23 +9,23 @@
 </head>
 
 <body class="font-geist bg-[#121212]">
-    <header class="flex gap-4 px-12 py-1.5 justify-between items-center text-cyan-200">
+    <header class="flex w-full py-1.5 justify-center items-center border-b text-cyan-200 md:px-12 md:justify-between md:gap-4">
         <div class="text-4xl font-bold">AetherOps</div>
-        <nav>
+        <nav class="hidden md:block">
             <ul class="flex gap-10 text-sm font-jetBrains">
                 <li>Features</li>
                 <li>Pricing</li>
                 <li>Docs</li>
             </ul>
         </nav>
-        <div class="flex gap-5 text-sm font-jetBrains">
+        <div class="hidden md:flex gap-5 text-sm font-jetBrains">
             <button class="border p-1.5">Sign In</button>
             <button class="p-1.5 bg-cyan-200 text-black">Get Started</button>
         </div>
     </header>
     <main>
-        <section class="grid grid-cols-2 p-12 items-center">
-            <div class=" text-cyan-200">
+        <section class="flex flex-col p-5 gap-5 text-center md:grid md:grid-cols-2 md:p-12 items-center">
+            <div class=" text-cyan-200 md:text-left">
                 <div class="mb-7 font-jetBrains">
                     <span class="border p-1.5 rounded-xl bg-cyan-300/10">🟢 v2.4.0 Live</span>
                 </div>
@@ -38,7 +38,7 @@
                     Autonomous pipelines, predictive scaling, and self-healing infraestructure
                     powered by next-gen AI. Command your architecture with unprecedented precision.
                 </p>
-                <div class="font-jetBrains text-xs flex gap-6">
+                <div class="font-jetBrains text-xs gap-6 md:flex">
                     <button class="p-5 bg-cyan-200 text-black shadow-md shadow-cyan-200/50">Deploy your First Pipeline</button>
                     <button class="p-5 border">📄 View Docs</button>
                 </div>
@@ -51,7 +51,7 @@
         </section>
         <section class="text-cyan-100 flex items-center flex-col my-12">
             <p class="font-jetBrains text-xs">Trusted by the world's most innovate engineering teams</p>
-            <ul class="text-xl text-gray-200/30 font-extrabold flex gap-14 m-7">
+            <ul class="text-xl text-gray-200/30 font-extrabold flex gap-2 m-7 md:gap-14">
                 <li>NEXUS</li>
                 <li>AERIS</li>
                 <li>QUANTUM</li>
@@ -60,7 +60,7 @@
         </section>
         <section>
             <h2 class="text-2xl font-bold text-white text-center">Core Capabilities</h2>
-            <div class="grid grid-cols-3 p-5 m-5 gap-4 text-white/70">
+            <div class="flex flex-col md:grid md:grid-cols-3 p-5 m-5 gap-4 text-white/70">
                 <div class="py-10 px-6 border border-gray-100/10 bg-[#0f0e0e] col-span-2">
                     <h3 class="text-xl my-2 font-bold text-white">Predictive CI/CD</h3>
                     <p>Our AI models analyze historical deployment data to predict
@@ -85,12 +85,12 @@
             </div>
         </section>
     </main>
-    <footer class="grid grid-cols-4 text-white p-7 bg-[#080808f6]">
+    <footer class="flex text-center md:text-left md:grid md:grid-cols-4 text-white p-7 bg-[#080808f6]">
         <div class="text-sm font-jetBrains flex flex-col gap-4 px-5">
             <p class="text-cyan-200">AETHEROPS</p>
             <p class="text-cyan-400">@ 2024 AETHEROPS COMMAND. ALL SYSTEMS OPERATIONAL.</p>
         </div>
-        <div>
+        <div class="hidden md:block">
             <ul class="flex flex-col gap-3 text-sm text-white/40"> 
                 <span class="font-jetBrains text-xs text-white font-bold">Platform</span>
                 <li>Features</li>
@@ -98,7 +98,7 @@
                 <li>Changelog</li>
             </ul>
         </div>
-        <div>
+        <div class="hidden md:block">
             <ul class="flex flex-col gap-3 text-sm text-white/40"> 
                 <span class="font-jetBrains text-xs text-white font-bold">Resources</span>
                 <li>Docs</li>
@@ -106,7 +106,7 @@
                 <li>Community</li>
             </ul>
         </div>
-        <div>
+        <div class="hidden md:block">
             <ul class="flex flex-col gap-3 text-sm text-white/40"> 
                 <span class="font-jetBrains text-xs text-white font-bold">Legal</span>
                 <li>Security</li>
