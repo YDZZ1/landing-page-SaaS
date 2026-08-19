@@ -6,4 +6,7 @@
 @theme {
     --font-geist: "Geist", sans-serif;
     --font-jetBrains: "JetBrains Mono", monospace;
+    --color-superficie-oscuro: #121212;
+    --color-superficie-tarjeta: #0f0e0e;
+    --color-superficie-footer: #080808f6;
 }
