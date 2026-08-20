@@ -3,6 +3,6 @@
 ## CheckList
 - [x] Create the structure.
 - [x] Make responsive.
-- [ ] Deploy.
+- [x] Deploy.
 
 *Template make with stitch*
